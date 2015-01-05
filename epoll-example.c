@@ -260,8 +260,6 @@ main (int argc, char *argv[])
 	}
 
 	free (events);
-
 	close (sfd);
-
 	return EXIT_SUCCESS;
 }
